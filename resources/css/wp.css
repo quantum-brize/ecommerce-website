@@ -1,0 +1,335 @@
+body { 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.content {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #04AA6D;
+    padding-inline-start: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #0045c5;
+  padding-inline-start: 10px;
+}
+
+.jus h1{
+  font-size: 32px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #0045c5;
+  padding-inline-start: 10px;
+}
+.jus p{
+  padding-inline-start: 30px;
+  font-size: 24px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#444444
+}
+
+.alert { font-weight:medium; font-style: italic; color: red; }
+
+.footer {
+  text-align: end;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  padding: 10px;
+  background-color: #414141;
+  color:white;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+float: right;
+color: #f3f3f3;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #04AA6D;
+    color: white;
+    }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(238, 237, 237);
+    color: black;
+    }
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+    float: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav a.split:hover {
+    padding-right: 50px;
+    float: left;
+    background-color: #0045c5;
+    color: white;
+  }
+  .topnav div.splits {
+    padding: 14px;
+    float: left;
+    color: white;
+  }
+
+/*apply button style*/
+.btna {
+border: 2px solid black;
+border-radius: 8px;
+background-color: white;
+color: black;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+text-decoration: none;
+margin: 20px;
+}
+.btna:hover {
+background-color: #04AA6D;
+color: white;
+}
+/*edit button style*/
+.btne {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px;
+  }
+  .btne:hover {
+  background-color: #044caa;
+  color: white;
+  }
+/*delete button style*/
+.btnd {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px;
+  }
+  .btnd:hover {
+  background-color: #aa0420;
+  color: white;
+  }
+
+
+/* Add padding to containers */
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], select , textarea{
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Style the submit button */
+input[type=submit] {
+    font-size: 16px;
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+  /* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+    background-color: #45a049;
+ }
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the form button */
+.formbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+/*List style*/
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }  
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+#myUL li a:hover {
+    background-color: #ececec; /* Grey background color */
+    color: rgb(70, 127, 233); /* Add a black text color */
+}
+#myUL div {
+    padding: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color:rgb(114, 114, 114);
+}
+/*List style student_list*/
+#myLS {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}  
+#myLS li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+#myLS li a:hover {
+  background-color: #ececec; /* Grey background color */
+  color: rgb(70, 127, 233); /* Add a black text color */
+}
+
+/*List style project_details*/
+#myPL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}  
+#myPL li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+#myPL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #ececec; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: rgb(75, 75, 75); /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+#myPL li a:hover {
+  background-color: #ececec; /* Grey background color */
+  color: rgb(70, 127, 233); /* Add a black text color */
+}
+
+.btns{
+  padding: 20px;
+}
+
+#myTL {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#myTL li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  padding: 8px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 14px; /* Increase the font-size */
+  font-weight: bold;
+  color:rgb(179, 179, 179) ;
+}
+#myTL li a {
+  color: rgb(0, 141, 87); /* Add a black text color */
+}
+
+.myref p {
+  font-family: 'Times New Roman', Times, serif;
+  color:#444444;
+  font-size: 20px;
+  Text-justify: auto;
+  max-width: 90%;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#myCL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}  
+#myCL li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 22px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 24px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+#myCL li i{
+  font-style: normal;
+  font-size: 16px;
+}
